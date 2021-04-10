@@ -18,7 +18,7 @@ body {
 .Navbar a {
 	float: left; /* This specifies that the text floats on the left on the navbar */
 	display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-	color: rgb(17, 0, 248); /* This is the font color for text on our navbar */
+	color: rgba(190, 0, 248, 0.904); /* This is the font color for text on our navbar */
 	padding: 14px 16px; /* This adds padding around our text */
 	text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
 	font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
@@ -28,7 +28,7 @@ body {
 
 /* Navbar hover effect */
 .Navbar a:hover {
-	background-color: #1d75fa; /*  This defines the background color that will display when you hover over the text on the navbar */
+	background-color: #a21dfa; /*  This defines the background color that will display when you hover over the text on the navbar */
 	color: black; /* This defines the font color that will display when you hover over the text on the navbar */
 	font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 }
@@ -67,7 +67,7 @@ body {
 	padding: 10px; 
 	padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
 	height: 400px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
-	background-color:#7FFFD4; 
+	background-color:#9b1bd6; 
 }
 
 .Column_2 {
@@ -76,7 +76,7 @@ body {
 	padding: 10px;
 	padding-top: 1.9%;
 	height: 400px;
-	background-color: #0026fd;
+	background-color: #00fdfd;
 }
 
 .Column_3 {
@@ -85,7 +85,7 @@ body {
 	padding: 10px;
 	padding-top: 3.5%;
 	height: 450px;
-	background-color: #0026fd;
+	background-color: #00fdfd;
 }
 
 .Row:after { /* This inserts something after the content of selected elements */
@@ -185,7 +185,7 @@ input[type=submit]:hover {
 /* Form elememt */
 form { 
 	border-radius: 10px; 
-	background-color:  #0026fd;
+	background-color:  #00fdfd;
 	padding: 10px;
 	font-family: "Trebuchet MS", Optima;
 }
